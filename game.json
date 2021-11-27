@@ -1,16 +1,98 @@
 {
 	"width": 375,
 	"height": 667,
-	"fps": 30,
+	"fps": 60,
 	"main": "./script/main.js",
 	"assets": {
 		"main": {
 			"type": "script",
 			"path": "script/main.js",
 			"global": true
+		},
+		"game": {
+			"type": "script",
+			"path": "script/scene/game.js",
+			"global": true
+		},
+		"title": {
+			"type": "script",
+			"path": "script/scene/title.js",
+			"global": true
+		},
+		"course_1": {
+			"type": "script",
+			"path": "script/course/1.js",
+			"global": true
+		},
+		"yu": {
+			"type": "image",
+			"path": "image/yu/rainbow.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_1": {
+			"type": "image",
+			"path": "image/yu/red.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_2": {
+			"type": "image",
+			"path": "image/yu/orange.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_3": {
+			"type": "image",
+			"path": "image/yu/yellow.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_4": {
+			"type": "image",
+			"path": "image/yu/green.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_5": {
+			"type": "image",
+			"path": "image/yu/blue.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_6": {
+			"type": "image",
+			"path": "image/yu/dark-blue.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"yu_7": {
+			"type": "image",
+			"path": "image/yu/purple.png",
+			"width": 64,
+			"height": 64,
+			"global": true
+		},
+		"player": {
+			"type": "image",
+			"path": "image/player.png",
+			"width": 1024,
+			"height": 1024,
+			"global": true
 		}
 	},
 	"moduleMainScripts": {},
+	"renderers": [
+		"webgl",
+		"canvas"
+	],
 	"environment": {
 		"sandbox-runtime": "3"
 	}
