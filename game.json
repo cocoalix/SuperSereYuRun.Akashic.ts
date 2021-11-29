@@ -24,6 +24,13 @@
 			"path": "script/course/1.js",
 			"global": true
 		},
+		"warpstar": {
+			"type": "image",
+			"path": "image/warpstar.png",
+			"width": 128,
+			"height": 128,
+			"global": true
+		},
 		"yu": {
 			"type": "image",
 			"path": "image/yu/rainbow.png",
@@ -85,6 +92,16 @@
 			"path": "image/player.png",
 			"width": 1024,
 			"height": 1024,
+			"global": true
+		},
+		"resultNotify": {
+			"type": "script",
+			"path": "script/ui/resultNotify.js",
+			"global": true
+		},
+		"collision": {
+			"type": "script",
+			"path": "script/util/collision.js",
 			"global": true
 		}
 	},

@@ -2,3 +2,5 @@ node_modules
 /script
 coverage
 dist/
+package-lock.json
+*.lock
